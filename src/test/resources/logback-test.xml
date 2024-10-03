@@ -3,7 +3,7 @@
     <!--应用名-->
     <property name="APP_NAME" value="poli-server-test" />
     <!--日志根目录-->
-    <property name="LOG_HOME" value="/data/applog" />
+    <property name="LOG_HOME" value="/workspace/poli/applog" />
     <!--日志通用输出格式-->
     <property name="SERIOUS_PATTERN_COMMON" value="[%X{X-B3-TraceId}] [%X{clientIp}] %d{yyyy-MM-dd} %d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n"/><!-- %X{ip} -->
 

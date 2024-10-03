@@ -1,0 +1,12 @@
+mvn install:install-file \
+    -Dfile=/workspace/poli/db/ptc-board-log-client-0.0.2-SNAPSHOT.jar \
+    -DgroupId=com.ptc \
+    -DartifactId=ptc-board-log-client\
+    -Dversion=0.0.2-SNAPSHOT \
+    -Dpackaging=jar
+
+
+
+
+
+sudo mkdir -p /data/applog
